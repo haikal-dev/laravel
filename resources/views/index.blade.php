@@ -23,8 +23,9 @@
         <div class="masthead">
             <div class="masthead-content text-white">
                 <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">Start coding using Laravel 8 Framework</h1>
-                    <p class="mb-5">Congratulations! Your web application is online.</p>
+                    <div id="app">
+                        <hello-laravel></hello-laravel>
+                    </div>
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->
                     <!-- * * * * * * * * * * * * * * *-->
@@ -79,5 +80,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
